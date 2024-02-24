@@ -37,7 +37,6 @@ https://i.postimg.cc/ZJ4WzpTg/1.png
 ### :gear: Installation
 
 1-RConfig UI ( docker.yaml)
->>>>>>> dee3f9c (Create README.md)
 ```bash
 version: '3'
 
@@ -52,11 +51,9 @@ services:
       - RootPassword=admin
       - RootSession=01:00:00
       - SqlType=MsSQL
-<<<<<<< HEAD
       - Mysql=Server=mysql.example.server.com;Database=rconfig;Uid=root;Pwd=pass;
       - MsSQL=Server=mssql.example.ser.com;Database=RConfig;Uid=root;Pwd=pass;Application Name=Rconfig.Ui.Application;Integrated Security=False;TrustServerCertificate=True;MultipleActiveResultSets=True;
       - Postgresql=Server=server.test.local;Port=5432;Database=rconfig;User Id=postgres;Password=pass;
-=======
       - TLS_VERSION=1
       - Mysql=Server=mysql.example.server.com;Database=rconfig;Uid=root;Pwd=pass;
       - MsSQL=Server=mssql.example.ser.com;Database=RConfig;Uid=root;Pwd=pass;Application Name=Rconfig.Ui.Application;Integrated Security=False;TrustServerCertificate=True;MultipleActiveResultSets=True;
@@ -65,11 +62,10 @@ services:
       - "80:80"
 
 ```
-<<<<<<< HEAD
+
 2-RConfig API (docker.yaml) for docker container ```bash  docker pull alizorlu/pretechsoftwarerconfigapiserver ```
-=======
+
 2-RConfig API (docker.yaml)
->>>>>>> dee3f9c (Create README.md)
 ```bash
 version: '3'
 
@@ -85,7 +81,6 @@ services:
       - Mysql=Server=mysql.example.server.com;Database=rconfig;Uid=root;Pwd=pass;
       - MsSQL=Server=mssql.example.ser.com;Database=RConfig;Uid=root;Pwd=pass;Application Name=Rconfig.Ui.Application;Integrated Security=False;TrustServerCertificate=True;MultipleActiveResultSets=True;
       - Postgresql=Server=server.test.local;Port=5432;Database=rconfig;User Id=postgres;Password=pass;
-=======
       - SqlType=MsSQL
       - TLS_VERSION=1
       - Mysql=Server=mysql.example.server.com;Database=rconfig;Uid=root;Pwd=pass;
@@ -95,11 +90,10 @@ services:
       - "80:80"
 
 ```
-<<<<<<< HEAD
 3-RConfig.Crypto(Dependency Ext . Lib) ```bash dotnet add package RConfig.Crypto.1.0.0 --version 1.0.0```
-=======
+
 3-RConfig.Crypto(Dependency Ext . Lib)
->>>>>>> dee3f9c (Create README.md)
+
 ```bash
 NuGet\Install-Package RConfig.Crypto.1.0.0 -Version 1.0.0
 ```
@@ -110,7 +104,7 @@ NuGet\Install-Package RConfig.Crypto.1.0.0 -Version 1.0.0
 * [x] Key-based encryption (AES)
 * [x] IP based access (RConfig API)
 * [ ] Appending remote changes automatically on the stack side
-* [ ] Support for other databases (primarily postgresql)
+* [x] Support for other databases (primarily postgresql)
 * [ ] Adding usage metrics to RConfig UI
 
 
