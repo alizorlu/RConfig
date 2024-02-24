@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  rconfig_api:
+    container_name: rconfig_api
+    image: alizorlu/pretechsoftwarerconfigapiserver
+    restart: always
+    mem_limit: 2g
+    environment:
+      - SqlType=Postgresql
+      - Mysql=Server=mysql.example.server.com;Database=rconfig;Uid=root;Pwd=pass;
+      - MsSQL=Server=mssql.example.server.com;Database=RConfig;Uid=root;Pwd=pass;Application Name=Rconfig.Ui.Application;Integrated Security=False;TrustServerCertificate=True;MultipleActiveResultSets=True;
+      - Postgresql=Server=mssql.example.server.com;Port=5432;Database=rconfig;User Id=postgres;Password=pass;
+    ports:
+      - "80:80"

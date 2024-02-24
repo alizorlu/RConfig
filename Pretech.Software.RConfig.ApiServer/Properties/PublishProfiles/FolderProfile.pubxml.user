@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\azorl\source\repos\Pretech.Software\Pretech.Software\RemoteConfig\Pretech.Software.RConfig.ApiServer\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2024-02-02T18:34:12.9410456Z;True|2024-02-02T21:25:20.5842712+03:00;True|2024-02-02T21:25:01.2591657+03:00;True|2024-02-02T20:07:28.8202754+03:00;True|2024-02-02T20:06:29.8281661+03:00;True|2024-02-02T14:57:45.0241720+03:00;False|2024-02-02T14:56:06.7474784+03:00;True|2024-02-02T12:50:18.5736064+03:00;True|2024-02-01T21:30:16.3274957+03:00;True|2024-02-01T21:27:14.9078206+03:00;True|2024-02-01T20:00:41.7753322+03:00;True|2024-02-01T16:41:18.9835747+03:00;True|2024-01-24T20:22:09.4343094+03:00;True|2024-01-24T18:45:39.9167565+03:00;True|2024-01-24T16:41:12.4538713+03:00;True|2024-01-24T16:39:32.2978555+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

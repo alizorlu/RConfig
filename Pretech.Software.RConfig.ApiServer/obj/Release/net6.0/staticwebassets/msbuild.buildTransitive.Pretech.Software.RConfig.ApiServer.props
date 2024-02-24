@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pretech.Software.RConfig.ApiServer.props" />
+</Project>

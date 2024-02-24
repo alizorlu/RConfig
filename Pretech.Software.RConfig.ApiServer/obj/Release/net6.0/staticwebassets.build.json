@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9qjm+5C3s8eI/hF/+DetTIvjCKs0OmWtLlqe/KLGxFk=",
+  "Source": "Pretech.Software.RConfig.ApiServer",
+  "BasePath": "_content/Pretech.Software.RConfig.ApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

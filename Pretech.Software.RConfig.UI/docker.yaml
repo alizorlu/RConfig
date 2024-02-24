@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  rconfig_ui:
+    container_name: rconfig_ui
+    image: alizorlu/pretechsoftwarerconfigui
+    restart: always
+    mem_limit: 2g
+    environment:
+      - RootUser=admin
+      - RootPassword=admin
+      - RootSession=01:00:00
+      - SqlType=Postgresql
+      - TLS_VERSION=1
+      - Mysql=Server=mysql.example.server.com;Database=rconfig;Uid=root;Pwd=pass;
+      - MsSQL=Server=mssql.example.server.com;Database=RConfig;Uid=root;Pwd=pass;Application Name=Rconfig.Ui.Application;Integrated Security=False;TrustServerCertificate=True;MultipleActiveResultSets=True;
+      - Postgresql=Server=pg.example.server.com;Port=5432;Database=rconfig;User Id=postgres;Password=pass;       
+    ports:
+      - "80:80"
